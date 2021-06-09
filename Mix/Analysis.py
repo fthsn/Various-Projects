@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os 
 
-os.chdir("/Users/ftmfth/Documents/Projects/GeneralFiles/Python/Sprovo")
+os.chdir("/Users/ftmfth/Documents/Projects/GeneralFiles/Python/")
 
 customers = pd.read_csv('customers.csv')
 customers = customers.set_index('customer')
